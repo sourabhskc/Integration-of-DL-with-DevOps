@@ -47,6 +47,6 @@ acc = int(acc)
 print(acc)
 
 #store the accuracy in a file
-f = open("/taskCode/model_accuracy.txt",'w+')
+f = open("/taskCode/accuracy.txt",'w+')
 f.write(str(acc))
 f.close()
